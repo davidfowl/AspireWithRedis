@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34818.151
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireWithRedis.AppHost", "AspireWithRedis.AppHost\AspireWithRedis.AppHost.csproj", "{08B2F4FC-B6C9-4CD9-9B1F-A08085F85922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireWithRedis.ServiceDefaults", "AspireWithRedis.ServiceDefaults\AspireWithRedis.ServiceDefaults.csproj", "{F3EB8CD5-90A3-4CC4-A7A9-1029F61B4738}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiApplication", "ApiApplication\ApiApplication.csproj", "{278C8936-D3FE-4921-BA73-3906175122E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B2F4FC-B6C9-4CD9-9B1F-A08085F85922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B2F4FC-B6C9-4CD9-9B1F-A08085F85922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B2F4FC-B6C9-4CD9-9B1F-A08085F85922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B2F4FC-B6C9-4CD9-9B1F-A08085F85922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EB8CD5-90A3-4CC4-A7A9-1029F61B4738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EB8CD5-90A3-4CC4-A7A9-1029F61B4738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EB8CD5-90A3-4CC4-A7A9-1029F61B4738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EB8CD5-90A3-4CC4-A7A9-1029F61B4738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278C8936-D3FE-4921-BA73-3906175122E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278C8936-D3FE-4921-BA73-3906175122E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278C8936-D3FE-4921-BA73-3906175122E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278C8936-D3FE-4921-BA73-3906175122E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A78945B9-4B4D-4B91-8B02-F547E7DCB23B}
+	EndGlobalSection
+EndGlobal
